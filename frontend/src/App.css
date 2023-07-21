@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+
+.apexcharts-series path {
+  transition: stroke-dasharray 0.15s;
+}
+
+.apexcharts-xaxis-texts text:first-child {
+  text-anchor: start !important;
+}
+
+/* AllGraphs.css */
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  background-color: #F0AB03;
+}
+
+
+
+.app-container {
+  position: relative;
+}
+
+.app-container::before {
+  height: 100vh;
+  content: "";
+  background-image: url('logo.png');
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  /* Add any other desired styling properties */
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  /* align-items: center; */
+}
+
+/* h3{
+  margin-left: 5%;
+} */
+
+.custom-container{
+  align-items: center;
+}
+.custom-container2{
+  /* align-items: left; */
+  flex-direction: row;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start, center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.input-field,
+.select-field {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #F0AB03;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #c68f04;
+}
+
+.result {
+  align-self: flex-end;
+  align-items: normal;
+  padding: 10px;
+  border: 1px solid #F0AB03;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 16px;
+  margin-right: 5%;
+  margin-bottom: 4%;
+}
+
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px 20px;
+  margin-top: 3%;
+}
+
+label{
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input label{
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+  
+}
+.input-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn{
+  background: #F0AB03;
+    color: white;
+    /* box-shadow: 0 .75rem .5rem -.5rem hsl(46, 79%, 64%); */
+}

@@ -1,0 +1,13 @@
+(SS)[bit-by-bit, BitByBitBacklog]: TL=Amit, SM=Sahana, QPA=Sriharsha;
+(SS)[Pacemaker, PacemakerBacklog]: TL=Amit, SM=Adarsh, QPA=Sriharsha;
+(SS, OPT)[HighOctane, HighOctaneBacklog]: TL=Piyush, SM=Dipanjan, QPA=Sriharsha;
+(SS)[HoneyBadgersBacklog]: TL=Shivam, SM=Samir, QPA=Sriharsha;
+(SS)[TechM]: TL=Piyush, SM=Sreenadha, QPA=Sriharsha;
+(SS)[HydSoft]: TL=Amit, SM=Sahana, QPA=Sriharsha;
+(SS)[PAL1, PAL1Backlog]: TL=Cathy, SM=Fiona, QPA=Herman;
+(SS)[PAL2, PAL2Backlog]: TL=Bharath, SM=Padma, QPA=Herman;
+(SS)[PAL3, PAL3Backlog]: TL=Srini, SM=Chunyang, QPA=Philip;
+(ET)[ET1, ET2]: TL=Joy, SM=Joy, QPA=Vinita;
+(ET)[ET3]: TL=Ranjith, SM=Ranjith, QPA=Vinita;
+(DMS)[]: TL=Prasanna, SM=Chandra, QPA=Philip;
+(SSR)[]: TL=Ashish, SM=Ashish, QPA=Prashanth;

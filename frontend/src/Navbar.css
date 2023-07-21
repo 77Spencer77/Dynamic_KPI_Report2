@@ -1,0 +1,63 @@
+nav {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 7px;
+
+  background-color: #F0AB03;
+
+}
+
+
+
+.logo {
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  margin-left: 5%;
+
+}
+
+
+
+.nav-items {
+
+  display: flex;
+
+  /* justify-content: space-around; */
+
+  font-size:15px;
+
+  list-style: none;
+
+  margin-right: 40px;
+
+  gap: 10px;
+
+}
+
+
+
+.nav-items li {
+
+ margin-right: 5px;
+
+  margin-top: 12px;
+
+}
+
+
+
+.nav-items a {
+
+  text-decoration: none;
+
+  color: white;
+
+}
